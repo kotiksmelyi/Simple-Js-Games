@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid black;
+    border-radius: 7px;
+    background-color: papayawhip;
+    width: 500px;
+}
+
+body button {
+    width: 200px;
+    margin-bottom: 1%;
+    border: 2px solid black;
+    border-radius: 7px;
+    cursor: pointer;
+    background-color: pink;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: palevioletred;
+}
+
+.container:hover {
+    background-color: lemonchiffon;
+}
